@@ -1,0 +1,6 @@
+b)
+
+i)
+select weekday(curdate()); will give week day
+like moday=0
+tuesay=1..............
