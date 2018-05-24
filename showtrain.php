@@ -1,3 +1,4 @@
+
 <?php
 session_start();
 $dbhost = 'localhost';
@@ -31,7 +32,7 @@ $count=0;
 while($num = mysqli_fetch_array($res)){
 for ($i=0; $i < 4; $i++) {
 
-  $p="obj".$i;
+    $p="obj".$i;
   ?>
  <tr><td>
  <?php echo $a;?></td><td></td><td></td><td></td>
